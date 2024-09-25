@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Referencias</title>
+    <link rel="icon" type="image/x-icon" href="../Icons/icon.ico">
+    <style>
+        @import url(../css/base.css);
+        @import url(../css/form.css);
+    </style>
+</head>
+
+<body>
+
+    <nav id="navBar">
+
+        <div id="logo">
+            <img src="../img/logo.png" width="200px" height="70px">
+        </div>
+
+        <div id="itemNav">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./about.html">¿Quiénes somos?</a></li>
+                <li><a href="./service.html">Servicios</a></li>
+            </ul>
+        </div>
+
+        <div id="contact">
+            <ul>    
+                <li><img id="iconNav" src="../Icons/phone-solid.svg" alt=""> Tel: 3212383874</li>
+                <li><img id="iconNav" src="../Icons/calendar-days-regular.svg" alt=""> Agendar</li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="centro">
+        <h1>Contáctanos</h1>
+        <form  method="post" enctype="multipart/form-data" id="forms">
+            <label for="Name">Nombre:</label>
+            <input type="text" id="Name" name="Name" />
+            <label for="last">Apellido: </label>
+            <input type="text" id="last" name="last" />
+            <label for="tel">Teléfono:</label> 
+            <input type="tel" id="tel" name="tel" />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" />
+            <input type="submit" value="ENVIAR" id="enviar"/>
+        </form>
+    </div>
+
+
+    <div id="footer">
+        <div><span><b>Aires Durán</b></span>
+            <span>Soluciones Profesionales en Aire Acondicionado y Electrodomésticos
+                Instalación, reparación y mantenimiento para hogares, vehículos y empresas.</span>
+        </div>
+        <div><span><b>Contáctanos</b></span>
+            <span>
+                <ul>
+                    <li>Teléfono: +57 300 123 4567</li>
+                    <li>Correo: info@airesduran.com</li>
+                    <li>Dirección: Calle 123 #45-67, Bucaramanga, Colombia</li>
+                </ul>
+                </span>
+        </div> 
+        <div><span><b>Horario de atención</b></span>
+            <span>
+                <ul>
+                    <li>Lunes a Viernes: 8:00 AM - 6:00 PM</li>
+                    <li>Sábados: 9:00 AM - 2:00 PM</li>
+                </ul>
+            </span>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

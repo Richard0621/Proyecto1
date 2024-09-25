@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, sans-serif
+
+}
+body{
+    /* background-image: url(../img/4077186_17580.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#logo {
+    margin-left: 20px;
+}
+
+#navBar {   
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: rgb(255, 255, 255);
+    font-size: 17px;
+    display: flex;
+    align-items: center; /*Centra los items verticalmente */
+    height: 75px; /*Lo ajuste al igual que el logo*/
+    padding: 10px 0px;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+
+#itemNav a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#itemNav a:hover{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #00445a;
+}
+
+#itemNav li{
+    padding: 10px;
+    margin: 0px 10px;
+    display: inline-block;
+}
+
+#contact {
+    position: absolute; /* Se posiciona respecto al padre (navBar)*/
+    right: 20px;    
+}
+
+#contact ul{
+    list-style-type: none;
+    display: flex;
+}
+
+#contact li{
+    color: rgb(255, 255, 255);
+    padding: 10px; /*Para el boton*/
+    border-radius: 4px;
+    background-color: #00445a;
+    margin: 0px 10px;
+    align-items: center;
+}
+
+#contact a{
+    color: white;
+    text-decoration: none;
+}
+
+#iconNav {
+    width: 15px;
+    height: 15px;
+}
+
+
+#footer {
+    font-size: 15px;
+    padding: 10px 60px ;
+    color: white;
+    background-color: #00445a;
+    display: flex;
+    flex-direction: row;
+}
+#footer div {
+    margin: 10px;
+}
+#footer span{
+    margin-top: 10px;
+    display: block;
+}
+#footer ul{
+    list-style: none;
+}
+
+
+
+
+
+
+
